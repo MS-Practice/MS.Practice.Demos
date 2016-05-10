@@ -1,0 +1,5 @@
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\CommonEntity\bin\Release\CommonEntity.dll
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\CommonEntity\bin\Release\CommonEntity.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\CommonEntity\obj\Release\ResolveAssemblyReference.cache
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\CommonEntity\obj\Release\CommonEntity.dll
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\CommonEntity\obj\Release\CommonEntity.pdb

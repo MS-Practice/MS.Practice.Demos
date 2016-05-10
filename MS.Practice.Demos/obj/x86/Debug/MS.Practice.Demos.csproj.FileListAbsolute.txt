@@ -1,0 +1,10 @@
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MS.Practice.Demos\bin\Debug\MS.Practice.Demos.exe.config
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MS.Practice.Demos\bin\Debug\MS.Practice.Demos.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MS.Practice.Demos\bin\Debug\MS.Practice.Demos.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MS.Practice.Demos\bin\Debug\CommomCore.dll
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MS.Practice.Demos\bin\Debug\ObsceneReplace.dll
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MS.Practice.Demos\bin\Debug\CommomCore.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MS.Practice.Demos\bin\Debug\ObsceneReplace.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MS.Practice.Demos\obj\x86\Debug\MS.Practice.Demos.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MS.Practice.Demos\obj\x86\Debug\MS.Practice.Demos.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MS.Practice.Demos\obj\x86\Debug\MS.Practice.Demos.csprojResolveAssemblyReference.cache

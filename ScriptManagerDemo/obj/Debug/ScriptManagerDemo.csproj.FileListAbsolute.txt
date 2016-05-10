@@ -1,0 +1,5 @@
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ScriptManagerDemo\bin\ScriptManagerDemo.dll
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ScriptManagerDemo\bin\ScriptManagerDemo.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ScriptManagerDemo\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ScriptManagerDemo\obj\Debug\ScriptManagerDemo.dll
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ScriptManagerDemo\obj\Debug\ScriptManagerDemo.pdb

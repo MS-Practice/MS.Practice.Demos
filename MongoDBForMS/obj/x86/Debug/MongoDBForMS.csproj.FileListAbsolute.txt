@@ -1,0 +1,5 @@
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MongoDBForMS\bin\Debug\MongoDBForMS.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MongoDBForMS\bin\Debug\MongoDBForMS.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MongoDBForMS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MongoDBForMS\obj\x86\Debug\MongoDBForMS.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MongoDBForMS\obj\x86\Debug\MongoDBForMS.pdb

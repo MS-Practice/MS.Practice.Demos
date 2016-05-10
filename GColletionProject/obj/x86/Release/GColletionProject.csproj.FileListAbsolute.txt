@@ -1,0 +1,5 @@
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\GColletionProject\bin\Release\GColletionProject.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\GColletionProject\bin\Release\GColletionProject.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\GColletionProject\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\GColletionProject\obj\x86\Release\GColletionProject.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\GColletionProject\obj\x86\Release\GColletionProject.pdb

@@ -1,0 +1,191 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script src="Scripts/jquery-1.4.1.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        (function ($, document, undefined) {
+            /*
+            *队列进行简单的封装
+            */
+            $.fn.will = function (callback, type) {
+                //这里的this 表示Jquery对象
+                this.queue(type || "fx", function () {
+                    callback && typeof callback == "function" && callback.call($(this));
+                    next();
+                });
+                return this;
+            };
+            /*
+            *字符串格式化
+            */
+            String.prototype.format = function () {
+                var args = arguments;
+                var reg = /\{(\d+)\}/g;
+                return this.replace(reg, function (g0, g1) {
+                    return args[+g1];
+                });
+            };
+            /*
+            *插件开始
+            */
+            $.fn.dynamicStyle = function (options) {
+                var t = $.type(options);    //jq判断options的类型
+                if (t === "object") {
+                    var defaults = {
+                        delay: 200,
+                        content: "",
+                        queueName: "dynamic",  // 所用队列名称，不占用动画队列 “fx”			
+                        //默认文本所用class的名称
+                        classLine: "dynamicStyle-line", // 每一行样式所用的class
+                        className: "dynamicStyle-class-name",  // 样式-class 的名称的class
+                        classKey: "dynamicStyle-class-key",    // 样式-class-样式名的class
+                        classValue: "dynamicStyle-class-value", // 样式-class-样式值的class
+                        notesContent: "dynamicStyle-notes",     // 样式-注释 的class
+                        //默认文本所用class的名称
+                        contentNotify: function () { },
+                        notify: function () { },    //添加完一个模块的通知回调
+                        complete: function () { } //完成回调
+                    };
+                    return this.each(function () {
+                        var opt = $.extend({}, defaults, options, { wrap: $(this) });
+                        $(this).data("dynamicStyle", new DynamicStyle(opt));
+                    });
+                }
+                else if (t === "string") {
+                    return this.each(function () {
+                        var obj = $(this).data("dynamicStyle");
+                        var events = {}; //以后添加参数（调用函数）
+                        events[options] && events[options].call(obj);
+                    });
+                }
+                else
+                    console.log("arg error");
+            }
+            function DynamicStyle(opt) {
+                this.opt = opt;
+                this.inIt();
+            };
+            DynamicStyle.prototype = {
+                inIt: function () {
+                    //                    this.loadStyle
+                },
+                loadStyle: function (content) {
+                    this.infos = splitStyles(content);
+                    //加载css文件
+                    //                    this.cssfile = s 
+                },
+                start: function () {
+                    var self = this;
+                    $.each(self.infos, function (index, item) {
+                        //把添加项的操作放入队列
+                        var writeFunc = item.type == 1 ? writeNotes : writeStyles;
+                    })
+                }
+            }
+            /*
+            * 将样式文件文本，用正则抽离分隔出样式和注释
+            */
+            function splitStyles(content) {
+                var styleReg = /\/\*([\s\S]*?)\*\/|([^\/]+?)\{([\s\S]+?)\}/g,   //获取样式的正则
+                arr = [],
+                m = styleReg.exec(content);
+                for (; m; m = styleReg.exec(content)) {
+                    arr.push(m);
+                }
+                return arr.map(function (item, index) {
+                    return item[1] ? {
+                        type: 1,  // type 是保留字？ 但是我真的很想用它... 类型、种类，就该是type
+                        content: item[0],  //原文字
+                        lines: $.trim(item[1]).split(/\s*\n\s*|\\n/g)
+                    } : (function () {
+                        var obj = {};
+                        $.trim(item[3]).split(/\s*;\s*/g).forEach(function (line) { // 将 KeyValuePair 填充到 obj 
+                            var pair = line.split(':');
+                            var k = $.trim(pair[0]), v = $.trim(pair[1]);
+                            k && v && (function () {
+                                obj[k] = v;
+                            })();
+                        });
+                        return {
+                            type: 2,
+                            content: item[0],  //原文字
+                            names: $.trim(item[2]).split(/\s*,\s*/g),
+                            styles: obj
+                        };
+                    })();
+                });
+            }
+        })(jQuery, document, undefined);
+    </script>
+    <style type="text/css">
+        #snake
+        {
+            width:200px;
+            height:100px;
+            margin:20px;
+            background:#e1e1e1;
+            position:relative;
+        }
+        @-webkit-keyframes snake-out
+        {
+            0%
+            {
+             -webkit-transform:translateX(3px) rotate(2deg);
+            }
+            10%
+            {
+                -webkit-transform:translate(-3px) rotate(-2deg);
+                }
+                20%
+                {
+                    -webkit-transform:translateX(3px) rotate(2deg);
+                    }
+            30%
+            {
+                -webkit-transform:translate(-3px) rotate(-2deg);
+                }
+                                40%
+                {
+                    -webkit-transform:translateX(3px) rotate(2deg);
+                    }
+            50%
+            {
+                -webkit-transform:translate(-3px) rotate(-2deg);
+                }
+                                60%
+                {
+                    -webkit-transform:translateX(3px) rotate(2deg);
+                    }
+            70%
+            {
+                -webkit-transform:translate(-3px) rotate(-2deg);
+                }
+                                80%
+                {
+                    -webkit-transform:translateX(3px) rotate(2deg);
+                    }
+            90%
+            {
+                -webkit-transform:translate(-3px) rotate(-2deg);
+                }
+                100%
+            {
+                -webkit-transform:translate(3px) rotate(2deg);
+                }
+            }
+            #snake:hover
+            {
+                -webkit-animation-name:snake-out;
+                -webkit-animation-duration:0.75s;
+                -webkit-animation-timing-function:linear;
+                -webkit-animation-iteration-count:1;
+                }
+    </style>
+</head>
+<body>
+<div id="snake"></div>
+<div  data-from="t"></div>
+<span data-from="t"></span>
+</body>
+</html>

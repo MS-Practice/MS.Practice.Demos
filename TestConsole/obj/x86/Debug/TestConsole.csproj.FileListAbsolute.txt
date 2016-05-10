@@ -1,0 +1,14 @@
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestConsole\bin\Debug\TestConsole.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestConsole\bin\Debug\TestConsole.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestConsole\bin\Debug\FileLoader.dll
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestConsole\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestConsole\bin\Debug\Microsoft.Practices.Unity.Configuration.dll
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestConsole\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestConsole\bin\Debug\FileLoader.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestConsole\bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestConsole\bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestConsole\bin\Debug\Microsoft.Practices.Unity.xml
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestConsole\bin\Debug\Microsoft.Practices.Unity.Configuration.xml
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestConsole\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestConsole\obj\x86\Debug\TestConsole.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestConsole\obj\x86\Debug\TestConsole.pdb

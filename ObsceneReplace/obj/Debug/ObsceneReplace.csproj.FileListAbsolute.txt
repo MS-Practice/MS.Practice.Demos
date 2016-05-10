@@ -1,0 +1,5 @@
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ObsceneReplace\bin\Debug\ObsceneReplace.dll
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ObsceneReplace\bin\Debug\ObsceneReplace.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ObsceneReplace\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ObsceneReplace\obj\Debug\ObsceneReplace.dll
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ObsceneReplace\obj\Debug\ObsceneReplace.pdb

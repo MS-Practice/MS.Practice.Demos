@@ -1,0 +1,4 @@
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ExceptionProject\bin\Debug\ExceptionProject.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ExceptionProject\bin\Debug\ExceptionProject.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ExceptionProject\obj\x86\Debug\ExceptionProject.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ExceptionProject\obj\x86\Debug\ExceptionProject.pdb

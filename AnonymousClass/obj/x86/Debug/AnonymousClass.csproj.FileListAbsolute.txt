@@ -1,0 +1,5 @@
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\AnonymousClass\bin\Debug\AnonymousClass.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\AnonymousClass\bin\Debug\AnonymousClass.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\AnonymousClass\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\AnonymousClass\obj\x86\Debug\AnonymousClass.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\AnonymousClass\obj\x86\Debug\AnonymousClass.pdb

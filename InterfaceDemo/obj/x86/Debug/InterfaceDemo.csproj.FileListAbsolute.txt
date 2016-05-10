@@ -1,0 +1,5 @@
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\InterfaceDemo\bin\Debug\InterfaceDemo.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\InterfaceDemo\bin\Debug\InterfaceDemo.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\InterfaceDemo\obj\x86\Debug\InterfaceDemo.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\InterfaceDemo\obj\x86\Debug\InterfaceDemo.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\InterfaceDemo\bin\Debug\InterfaceDemo.exe.config

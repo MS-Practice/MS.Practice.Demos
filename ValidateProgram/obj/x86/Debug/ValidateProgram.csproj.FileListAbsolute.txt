@@ -1,0 +1,5 @@
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ValidateProgram\bin\Debug\ValidateProgram.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ValidateProgram\bin\Debug\ValidateProgram.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ValidateProgram\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ValidateProgram\obj\x86\Debug\ValidateProgram.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ValidateProgram\obj\x86\Debug\ValidateProgram.pdb

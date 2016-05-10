@@ -1,0 +1,5 @@
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\CustmerAttributes\bin\Debug\CustmerAttributes.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\CustmerAttributes\bin\Debug\CustmerAttributes.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\CustmerAttributes\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\CustmerAttributes\obj\x86\Debug\CustmerAttributes.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\CustmerAttributes\obj\x86\Debug\CustmerAttributes.pdb

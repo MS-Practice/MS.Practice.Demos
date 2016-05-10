@@ -1,0 +1,10 @@
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\NewProgram\bin\Debug\NewProgram.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\NewProgram\bin\Debug\NewProgram.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\NewProgram\bin\Debug\CommonEntity.dll
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\NewProgram\bin\Debug\CommonEntity.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\NewProgram\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\NewProgram\obj\x86\Debug\NewProgram.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\NewProgram\obj\x86\Debug\NewProgram.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\NewProgram\bin\Debug\NewProgram.exe.config
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\NewProgram\bin\Debug\CommomCore.dll
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\NewProgram\bin\Debug\CommomCore.pdb

@@ -1,0 +1,5 @@
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\EventArgsClass\bin\Debug\EventArgsClass.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\EventArgsClass\bin\Debug\EventArgsClass.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\EventArgsClass\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\EventArgsClass\obj\x86\Debug\EventArgsClass.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\EventArgsClass\obj\x86\Debug\EventArgsClass.pdb

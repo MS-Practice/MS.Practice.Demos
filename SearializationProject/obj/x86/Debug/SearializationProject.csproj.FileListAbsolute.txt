@@ -1,0 +1,5 @@
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\SearializationProject\bin\Debug\SearializationProject.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\SearializationProject\bin\Debug\SearializationProject.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\SearializationProject\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\SearializationProject\obj\x86\Debug\SearializationProject.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\SearializationProject\obj\x86\Debug\SearializationProject.pdb

@@ -1,0 +1,5 @@
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\NewProgram\bin\Release\NewProgram.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\NewProgram\bin\Release\NewProgram.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\NewProgram\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\NewProgram\obj\x86\Release\NewProgram.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\NewProgram\obj\x86\Release\NewProgram.pdb

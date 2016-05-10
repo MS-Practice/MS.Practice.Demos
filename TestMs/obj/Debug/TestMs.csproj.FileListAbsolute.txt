@@ -1,0 +1,8 @@
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestMs\bin\Debug\TestMs.exe.config
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestMs\bin\Debug\TestMs.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestMs\bin\Debug\TestMs.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestMs\bin\Debug\CommomCore.dll
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestMs\bin\Debug\CommomCore.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestMs\obj\Debug\TestMs.exe
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestMs\obj\Debug\TestMs.pdb
+C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestMs\obj\Debug\TestMs.csprojResolveAssemblyReference.cache
