@@ -105,6 +105,29 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPro", "ThreadPro\Thre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS.Index", "MS.Index\MS.Index.csproj", "{8A873704-75EA-473D-8FF1-45A10410FCE4}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Front-End", "Front-End", "{9D6667D9-561F-4D4A-B9A2-CC73C2B956BD}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FrontEnd", "FrontEnd\", "{E871EDF0-A2EF-44E8-8F87-E4BC1A9FFC5F}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/FrontEnd"
+		Debug.AspNetCompiler.PhysicalPath = "FrontEnd\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\FrontEnd\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/FrontEnd"
+		Release.AspNetCompiler.PhysicalPath = "FrontEnd\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\FrontEnd\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "12418"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -587,6 +610,18 @@ Global
 		{8A873704-75EA-473D-8FF1-45A10410FCE4}.Release|Mixed Platforms.Build.0 = Release|x86
 		{8A873704-75EA-473D-8FF1-45A10410FCE4}.Release|x86.ActiveCfg = Release|x86
 		{8A873704-75EA-473D-8FF1-45A10410FCE4}.Release|x86.Build.0 = Release|x86
+		{E871EDF0-A2EF-44E8-8F87-E4BC1A9FFC5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E871EDF0-A2EF-44E8-8F87-E4BC1A9FFC5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E871EDF0-A2EF-44E8-8F87-E4BC1A9FFC5F}.Debug|Itanium.ActiveCfg = Debug|Any CPU
+		{E871EDF0-A2EF-44E8-8F87-E4BC1A9FFC5F}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E871EDF0-A2EF-44E8-8F87-E4BC1A9FFC5F}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E871EDF0-A2EF-44E8-8F87-E4BC1A9FFC5F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E871EDF0-A2EF-44E8-8F87-E4BC1A9FFC5F}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{E871EDF0-A2EF-44E8-8F87-E4BC1A9FFC5F}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{E871EDF0-A2EF-44E8-8F87-E4BC1A9FFC5F}.Release|Itanium.ActiveCfg = Debug|Any CPU
+		{E871EDF0-A2EF-44E8-8F87-E4BC1A9FFC5F}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{E871EDF0-A2EF-44E8-8F87-E4BC1A9FFC5F}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{E871EDF0-A2EF-44E8-8F87-E4BC1A9FFC5F}.Release|x86.ActiveCfg = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -632,6 +667,7 @@ Global
 		{D67BB0EC-9498-4301-BCF7-D2E5888361B3} = {EDFC39F0-5EAC-4FAA-A52D-5CD8AD252638}
 		{00F212AA-84D0-4AE2-A1D8-486C906247B0} = {EDFC39F0-5EAC-4FAA-A52D-5CD8AD252638}
 		{8A873704-75EA-473D-8FF1-45A10410FCE4} = {EDFC39F0-5EAC-4FAA-A52D-5CD8AD252638}
+		{E871EDF0-A2EF-44E8-8F87-E4BC1A9FFC5F} = {9D6667D9-561F-4D4A-B9A2-CC73C2B956BD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35

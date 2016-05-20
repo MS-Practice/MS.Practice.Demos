@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+</head>
+<body>
+<div style="height:20000px;"></div>
+<script type="text/javascript">
+    // var i = 0;
+    // window.addEventListener('scroll', function () {
+    //     console.log(i++);
+    // },false);
+    //放抖动函数
+    function debounce(func,wait,immediate){
+    	var timeout;
+    	return function(){
+    		var context = this,args = arguments;
+    		var later = function(){
+    			timeout = null;
+    			//immediate不存在
+    			if(!immediate) func.apply(context,args);
+    		};
+    		var callNow = immediate && !timeout;
+    		clearTimeout(timeout);
+    		timeout = setTimeout(later,wait);
+    		if(callNow) func.apply(context,args);
+    	};
+    };
+    var myEfficientFn = debounce(function(){
+    	console.log("Success!");
+    },200);
+    // window.addEventListener('scroll',myEfficientFn);
+
+    //坊节流函数
+    function throttle(func,wait,mustRun){
+    	var timeout,startTime = new Date();
+    	return function(){
+    		var context = this,
+    			args = arguments,
+    			curTime = new Date();
+    		clearTimeout(timeout);
+    		//如果达到了规定的时间限制，触发handler
+    		if(curTime - startTime >=mustRun){
+    			func.apply(context,args);
+    			startTime = curTime;
+    			//没达到规定的时间，重新设置定时器
+    		}else{
+    			timeout = setTimeout(func,wait);
+    		}
+    	};
+    };
+
+    function FuncA(callback,wait){
+    	console.log('FuncA');
+    	var timeout;
+    	return function(){
+    		//自己定时启用自己
+    		clearTimeout(timeout);
+    	    timeout = setTimeout(callback,wait);
+    		console.log('AnonymouseFunction');
+    	};
+    };
+    function funcB(){
+    	console.log('funcB');
+    }
+    window.addEventListener('click',FuncA(funcB,200),false); 
+</script>
+</body>
+</html>

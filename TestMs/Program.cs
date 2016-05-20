@@ -91,7 +91,6 @@ namespace TestMs
         private IntPtr handler;
         public OSHandler(IntPtr handler) {
             this.handler = handler;
-            
         }
         ~OSHandler()
         {
