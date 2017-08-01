@@ -102,5 +102,10 @@ namespace TestMs
         }
         [DllImport("Kernel32")]
         private extern static bool CloseHandler(IntPtr handler);
+
+        public void Dispose()
+        {
+            
+        }
     }
 }

@@ -6,3 +6,11 @@ C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestMs\bin\Debug\CommomCore
 C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestMs\obj\Debug\TestMs.exe
 C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestMs\obj\Debug\TestMs.pdb
 C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestMs\obj\Debug\TestMs.csprojResolveAssemblyReference.cache
+C:\MSProject\MS.Practice.Demos\TestMs\obj\Debug\TestMs.csprojResolveAssemblyReference.cache
+C:\MSProject\MS.Practice.Demos\TestMs\obj\Debug\TestMs.exe
+C:\MSProject\MS.Practice.Demos\TestMs\obj\Debug\TestMs.pdb
+C:\MSProject\MS.Practice.Demos\TestMs\bin\Debug\TestMs.exe.config
+C:\MSProject\MS.Practice.Demos\TestMs\bin\Debug\TestMs.exe
+C:\MSProject\MS.Practice.Demos\TestMs\bin\Debug\TestMs.pdb
+C:\MSProject\MS.Practice.Demos\TestMs\bin\Debug\CommomCore.dll
+C:\MSProject\MS.Practice.Demos\TestMs\bin\Debug\CommomCore.pdb

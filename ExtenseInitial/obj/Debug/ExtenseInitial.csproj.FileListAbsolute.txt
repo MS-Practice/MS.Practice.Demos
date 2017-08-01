@@ -1,0 +1,6 @@
+C:\MSProject\MS.Practice.Demos\ExtenseInitial\bin\Debug\ExtenseInitial.exe.config
+C:\MSProject\MS.Practice.Demos\ExtenseInitial\bin\Debug\ExtenseInitial.exe
+C:\MSProject\MS.Practice.Demos\ExtenseInitial\bin\Debug\ExtenseInitial.pdb
+C:\MSProject\MS.Practice.Demos\ExtenseInitial\obj\Debug\ExtenseInitial.csprojResolveAssemblyReference.cache
+C:\MSProject\MS.Practice.Demos\ExtenseInitial\obj\Debug\ExtenseInitial.exe
+C:\MSProject\MS.Practice.Demos\ExtenseInitial\obj\Debug\ExtenseInitial.pdb
