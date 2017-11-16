@@ -14,3 +14,15 @@ C:\MSProject\MS.Practice.Demos\TestMs\bin\Debug\TestMs.exe
 C:\MSProject\MS.Practice.Demos\TestMs\bin\Debug\TestMs.pdb
 C:\MSProject\MS.Practice.Demos\TestMs\bin\Debug\CommomCore.dll
 C:\MSProject\MS.Practice.Demos\TestMs\bin\Debug\CommomCore.pdb
+D:\MS\Project\MS.Practice.Demos\TestMs\bin\Debug\TestMs.exe.config
+D:\MS\Project\MS.Practice.Demos\TestMs\bin\Debug\TestMs.exe
+D:\MS\Project\MS.Practice.Demos\TestMs\bin\Debug\TestMs.pdb
+D:\MS\Project\MS.Practice.Demos\TestMs\bin\Debug\CommomCore.dll
+D:\MS\Project\MS.Practice.Demos\TestMs\bin\Debug\System.Web.Mvc.dll
+D:\MS\Project\MS.Practice.Demos\TestMs\bin\Debug\CommomCore.pdb
+D:\MS\Project\MS.Practice.Demos\TestMs\bin\Debug\System.Web.Mvc.xml
+D:\MS\Project\MS.Practice.Demos\TestMs\bin\Debug\zh-Hans\System.Web.Mvc.resources.dll
+D:\MS\Project\MS.Practice.Demos\TestMs\obj\Debug\TestMs.csprojResolveAssemblyReference.cache
+D:\MS\Project\MS.Practice.Demos\TestMs\obj\Debug\TestMs.csproj.CoreCompileInputs.cache
+D:\MS\Project\MS.Practice.Demos\TestMs\obj\Debug\TestMs.exe
+D:\MS\Project\MS.Practice.Demos\TestMs\obj\Debug\TestMs.pdb
