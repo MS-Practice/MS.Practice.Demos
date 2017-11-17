@@ -1,0 +1,9 @@
+D:\MS\Project\MS.Practice.Demos\AuthorizationCodeGrant\bin\AuthorizationCodeGrant.dll.config
+D:\MS\Project\MS.Practice.Demos\AuthorizationCodeGrant\bin\AuthorizationCodeGrant.dll
+D:\MS\Project\MS.Practice.Demos\AuthorizationCodeGrant\bin\AuthorizationCodeGrant.pdb
+D:\MS\Project\MS.Practice.Demos\AuthorizationCodeGrant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\MS\Project\MS.Practice.Demos\AuthorizationCodeGrant\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\MS\Project\MS.Practice.Demos\AuthorizationCodeGrant\obj\Debug\AuthorizationCodeGrant.csprojResolveAssemblyReference.cache
+D:\MS\Project\MS.Practice.Demos\AuthorizationCodeGrant\obj\Debug\AuthorizationCodeGrant.csproj.CoreCompileInputs.cache
+D:\MS\Project\MS.Practice.Demos\AuthorizationCodeGrant\obj\Debug\AuthorizationCodeGrant.dll
+D:\MS\Project\MS.Practice.Demos\AuthorizationCodeGrant\obj\Debug\AuthorizationCodeGrant.pdb
