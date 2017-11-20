@@ -7,6 +7,9 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
+/// <summary>
+/// 密码模式
+/// </summary>
 namespace Owin2.ResourceOwnerPasswordCredentialGrant
 {
     class Program
