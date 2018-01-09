@@ -7,3 +7,13 @@ C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\LinqProgramDemo\bin\Debug\D
 C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\LinqProgramDemo\obj\x86\Debug\ResolveAssemblyReference.cache
 C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\LinqProgramDemo\obj\x86\Debug\LinqProgramDemo.exe
 C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\LinqProgramDemo\obj\x86\Debug\LinqProgramDemo.pdb
+D:\MS\Project\MS.Practice.Demos\LinqProgramDemo\bin\Debug\LinqProgramDemo.exe
+D:\MS\Project\MS.Practice.Demos\LinqProgramDemo\bin\Debug\LinqProgramDemo.pdb
+D:\MS\Project\MS.Practice.Demos\LinqProgramDemo\bin\Debug\CommonEntity.dll
+D:\MS\Project\MS.Practice.Demos\LinqProgramDemo\bin\Debug\DBHelper.dll
+D:\MS\Project\MS.Practice.Demos\LinqProgramDemo\bin\Debug\CommonEntity.pdb
+D:\MS\Project\MS.Practice.Demos\LinqProgramDemo\bin\Debug\DBHelper.pdb
+D:\MS\Project\MS.Practice.Demos\LinqProgramDemo\obj\x86\Debug\LinqProgramDemo.csprojResolveAssemblyReference.cache
+D:\MS\Project\MS.Practice.Demos\LinqProgramDemo\obj\x86\Debug\LinqProgramDemo.csproj.CoreCompileInputs.cache
+D:\MS\Project\MS.Practice.Demos\LinqProgramDemo\obj\x86\Debug\LinqProgramDemo.exe
+D:\MS\Project\MS.Practice.Demos\LinqProgramDemo\obj\x86\Debug\LinqProgramDemo.pdb

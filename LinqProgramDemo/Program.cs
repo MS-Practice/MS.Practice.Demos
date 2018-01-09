@@ -36,12 +36,65 @@ namespace LinqProgramDemo
             //    //StringBuilder sb = new StringBuilder();
             //    //CodeTimer.Time("StringBuilder", iteration, () => { sb.Append("a"); });
             //}
-            GetPrices();
+            //GetPrices();
             //dLinqDelegate();
             //ExpressionToLinq();
             ////AddLinqExpression();
             //byte a = (byte)130;
             //Console.WriteLine(a);
+
+            Expression<Func<string, bool>> expr = name => name.Length > 10 && name.StartsWith("G");
+            Console.WriteLine(expr);
+
+            AndAlsoModifier treeModifier = new AndAlsoModifier();
+            Expression modifierExpr = treeModifier.Modify(expr);
+
+            Console.WriteLine(modifierExpr);
+
+            string[] companies = {"Consolidated Messenger", "Alpine Ski House", "Southridge Video", "City Power & Light",
+                    "Coho Winery", "Wide World Importers", "Graphic Design Institute", "Adventure Works",
+                    "Humongous Insurance", "Woodgrove Bank", "Margie's Travel", "Northwind Traders",
+                    "Blue Yonder Airlines", "Trey Research", "The Phone Company",
+                    "Wingtip Toys", "Lucerne Publishing", "Fourth Coffee" };
+            //转化IQueryable数据源
+            IQueryable<string> queryableData = companies.AsQueryable();
+            //编写表示谓词参数的表达式树
+            ParameterExpression pe = Expression.Parameter(typeof(string), "company");
+            //新建一个表达式树来表示 'company.ToLower() == "coho winery"' 的表达式
+            Expression left = Expression.Call(pe, typeof(string).GetMethod("ToLower", Type.EmptyTypes));
+            Expression right = Expression.Constant("coho winery", typeof(string));
+            Expression e1 = Expression.Equal(left, right);
+            //新建一个表达式树来表示 'company.Length > 16' 表达式
+            left = Expression.Property(pe, typeof(string).GetProperty("Length"));
+            right = Expression.Constant(16,typeof(int));
+            Expression e2 = Expression.GreaterThan(left, right);
+            //编译表达式树来生成一个表示'(company.ToLower() == "coho winery" || company.Length > 16)' 的表达式
+            Expression predicateBody = Expression.OrElse(e1, e2);
+            //新建一个表达式树来表示 'queryableData.Where(company => (company.ToLower() == "coho winery" || company.Length > 16))'
+            MethodCallExpression whereCallExpresstion = Expression.Call(
+                typeof(Queryable),
+                "Where",
+                new Type[] { queryableData.ElementType },
+                queryableData.Expression,
+                Expression.Lambda<Func<string, bool>>(predicateBody, new ParameterExpression[] { pe }));
+
+            //排序 OrderBy(company => company)
+            //新建一个表达式树来表示 'whereCallExpression.OrderBy(company => company)'
+            MethodCallExpression orderCallExpresstion = Expression.Call(
+                typeof(Queryable),
+                "OrderBy",
+                new Type[] { queryableData.ElementType, queryableData.ElementType },
+                whereCallExpresstion,
+                Expression.Lambda<Func<string, string>>(pe, new ParameterExpression[] { pe }));
+
+            //新建一个可执行的查询表达式树
+            IQueryable<string> result = queryableData.Provider.CreateQuery<string>(orderCallExpresstion);
+
+            //枚举结果
+            foreach (string company in companies)
+                Console.WriteLine(company);
+
+
             Console.ReadLine();
         }
         public static void dLinqDelegate()

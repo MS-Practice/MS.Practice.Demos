@@ -82,5 +82,40 @@ namespace LinqProgramDemo
             Console.WriteLine(expr.Compile()(4));
             //结果一样
         }
+
+        public void ExcuteExpressionTrees()
+        {
+            //执行表达式树
+            BinaryExpression be = Expression.Power(Expression.Constant(2D), Expression.Constant(3D));
+            //创建一个委托表达式
+            Expression<Func<double>> le = Expression.Lambda<Func<double>>(be);
+            // 编译lambda表达式
+            Func<double> compiledExpression = le.Compile();
+            //执行lambda表达式
+            double result = compiledExpression();
+            //显示值
+            Console.WriteLine(result);
+        }
+    }
+
+    public class AndAlsoModifier : ExpressionVisitor
+    {
+        public Expression Modify(Expression expression)
+        {
+            return Visit(expression);
+        }
+
+        protected override Expression VisitBinary(BinaryExpression b)
+        {
+            if(b.NodeType == ExpressionType.AndAlso)
+            {
+                Expression left = this.Visit(b.Left);
+                Expression right = this.Visit(b.Right);
+
+                //让二元运算符OrElse代替AndAlso
+                return Expression.MakeBinary(ExpressionType.OrElse, left, right, b.IsLiftedToNull, b.Method);
+            }
+            return base.VisitBinary(b);
+        }
     }
 }
