@@ -53,6 +53,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuicklyExpressionTrees\CacheEvaluator.cs" />
+    <Compile Include="QuicklyExpressionTrees\ConstantExtractor.cs" />
+    <Compile Include="QuicklyExpressionTrees\IExpressionCache.cs" />
+    <Compile Include="QuicklyExpressionTrees\PrefixTreeCache.cs" />
+    <Compile Include="QuicklyExpressionTrees\SimpleKeyCache.cs" />
+    <Compile Include="QuicklyExpressionTrees\WeakTypeDelegateGenerator.cs" />
+    <Compile Include="Solutions\PrefixTreeVisitor.cs" />
+    <Compile Include="Solutions\SimpleKeyBuilder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Northwind.dbml">
