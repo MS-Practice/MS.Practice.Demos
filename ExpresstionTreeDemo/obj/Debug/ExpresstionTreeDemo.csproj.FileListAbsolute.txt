@@ -1,0 +1,8 @@
+D:\MS\Project\MS.Practice.Demos\ExpresstionTreeDemo\bin\Debug\ExpresstionTreeDemo.exe.config
+D:\MS\Project\MS.Practice.Demos\ExpresstionTreeDemo\bin\Debug\ExpresstionTreeDemo.exe
+D:\MS\Project\MS.Practice.Demos\ExpresstionTreeDemo\bin\Debug\ExpresstionTreeDemo.pdb
+D:\MS\Project\MS.Practice.Demos\ExpresstionTreeDemo\bin\Debug\Newtonsoft.Json.dll
+D:\MS\Project\MS.Practice.Demos\ExpresstionTreeDemo\obj\Debug\ExpresstionTreeDemo.csproj.CoreCompileInputs.cache
+D:\MS\Project\MS.Practice.Demos\ExpresstionTreeDemo\obj\Debug\ExpresstionTreeDemo.exe
+D:\MS\Project\MS.Practice.Demos\ExpresstionTreeDemo\obj\Debug\ExpresstionTreeDemo.pdb
+D:\MS\Project\MS.Practice.Demos\ExpresstionTreeDemo\obj\Debug\ExpresstionTreeDemo.csprojResolveAssemblyReference.cache

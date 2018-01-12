@@ -59,6 +59,7 @@
     <Compile Include="QuicklyExpressionTrees\PrefixTreeCache.cs" />
     <Compile Include="QuicklyExpressionTrees\SimpleKeyCache.cs" />
     <Compile Include="QuicklyExpressionTrees\WeakTypeDelegateGenerator.cs" />
+    <Compile Include="ReflectionByExpresstionTree.cs" />
     <Compile Include="Solutions\PrefixTreeVisitor.cs" />
     <Compile Include="Solutions\SimpleKeyBuilder.cs" />
   </ItemGroup>
