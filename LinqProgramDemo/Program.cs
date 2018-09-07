@@ -97,10 +97,15 @@ namespace LinqProgramDemo
             #endregion
 
             //ReflectionByExpresstionTree rbet = new ReflectionByExpresstionTree();
-            var type = typeof(BooksPrice).GetConstructor(new[] { typeof(BooksPrice) });
-            var parameters = type.GetParameters();
-            var instance = typeof(BooksPrice).CreateInstanceDelegate();
-            var obj = instance();
+            #region Demo2
+            //var type = typeof(BooksPrice).GetConstructor(new[] { typeof(BooksPrice) });
+            //var parameters = type.GetParameters();
+            //var instance = typeof(BooksPrice).CreateInstanceDelegate();
+            //var obj = instance(); 
+            #endregion
+
+            Aggregates.Demo.Part1();
+            Aggregates.Demo.Part2();
             Console.ReadLine();
         }
         public static void dLinqDelegate()
