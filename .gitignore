@@ -46,3 +46,14 @@ Network Trash Folder
 Temporary Items
 .apdisk
 /.vs/MS.Practice.Demos/v15/Server/sqlite3
+/.vs
+/AuthorizationCodeGrant/bin
+/AuthorizationCodeGrant/obj
+/Owin2.AuthorizationServer/bin
+/Owin2.AuthorizationServer/obj
+/Owin2.Demo/bin
+/Owin2.Demo/obj
+/Owin2.ResourceServer/obj
+/Owin2.ResourceServer/bin
+/MS.Practice.Web/bin
+/MS.Practice.Web/obj

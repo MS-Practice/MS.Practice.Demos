@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Aggregates\Demo.cs" />
     <Compile Include="ExpressionDemo.cs" />
     <Compile Include="LinqOfAsync.cs" />
     <Compile Include="Northwind.designer.cs">
