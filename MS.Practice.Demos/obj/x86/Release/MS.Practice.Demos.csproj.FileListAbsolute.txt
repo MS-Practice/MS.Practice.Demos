@@ -1,5 +1,0 @@
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MS.Practice.Demos\bin\Release\MS.Practice.Demos.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MS.Practice.Demos\bin\Release\MS.Practice.Demos.pdb
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MS.Practice.Demos\obj\x86\Release\ResolveAssemblyReference.cache
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MS.Practice.Demos\obj\x86\Release\MS.Practice.Demos.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MS.Practice.Demos\obj\x86\Release\MS.Practice.Demos.pdb

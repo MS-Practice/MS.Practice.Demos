@@ -1,4 +1,0 @@
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MS.Index\bin\Debug\MS.Index.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MS.Index\bin\Debug\MS.Index.pdb
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MS.Index\obj\x86\Debug\MS.Index.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\MS.Index\obj\x86\Debug\MS.Index.pdb

@@ -1,5 +1,0 @@
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\GCManage\bin\Debug\GCManage.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\GCManage\bin\Debug\GCManage.pdb
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\GCManage\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\GCManage\obj\x86\Debug\GCManage.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\GCManage\obj\x86\Debug\GCManage.pdb

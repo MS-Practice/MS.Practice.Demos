@@ -1,1 +1,0 @@
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\LinqProgramDemo\obj\x86\Release\ResolveAssemblyReference.cache

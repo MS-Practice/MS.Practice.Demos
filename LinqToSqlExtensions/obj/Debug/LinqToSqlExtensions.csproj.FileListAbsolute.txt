@@ -1,5 +1,0 @@
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\LinqToSqlExtensions\bin\Debug\LinqToSqlExtensions.dll
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\LinqToSqlExtensions\bin\Debug\LinqToSqlExtensions.pdb
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\LinqToSqlExtensions\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\LinqToSqlExtensions\obj\Debug\LinqToSqlExtensions.dll
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\LinqToSqlExtensions\obj\Debug\LinqToSqlExtensions.pdb

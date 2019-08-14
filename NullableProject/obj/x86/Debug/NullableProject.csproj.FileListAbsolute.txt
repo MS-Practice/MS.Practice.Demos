@@ -1,5 +1,0 @@
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\NullableProject\bin\Debug\NullableProject.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\NullableProject\bin\Debug\NullableProject.pdb
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\NullableProject\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\NullableProject\obj\x86\Debug\NullableProject.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\NullableProject\obj\x86\Debug\NullableProject.pdb
