@@ -13,7 +13,7 @@ namespace ProgressBar
         protected void Page_Load(object sender, EventArgs e)
         {
             DataTable dt = new DataTable();
-            Object
+            //Object
         }
     }
 }

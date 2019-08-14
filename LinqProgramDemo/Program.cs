@@ -106,12 +106,18 @@ namespace LinqProgramDemo
 
             Aggregates.Demo.Part1();
             Aggregates.Demo.Part2();
+            Console.WriteLine("IEnumerable<T>.Empty 是否缓存？" + LinqEmpty.IsEquals());
+            Console.WriteLine("IEnumerable<T>.Empty 是否缓存？" + LinqEmpty.IsEqualsByNoCache());
+            Console.WriteLine("IEnumerable<T>.Empty 是否缓存？" + LinqEmpty.IsEqualsByCache());
+            Console.WriteLine("IEnumerable<T>.Conca？" + string.Join(",", LinqConcat.Concat(new string[] { "marson" }, new string[] { "shine" })));
+            Console.WriteLine("Linq.SelectMany " + string.Join(",", LinqSelectMany.GetResouces()));
+
             Console.ReadLine();
         }
         public static void dLinqDelegate()
         {
             List<String> info = new List<string>() { "世界", "毛帅", "祝琴" };
-            var inString = info.FindAll(delegate(string s)
+            var inString = info.FindAll(delegate (string s)
             {
                 return s.IndexOf("毛帅") >= 0;
             });
@@ -183,14 +189,14 @@ namespace LinqProgramDemo
             //    }
             //    return item.Price;
             //});
-            list.OrderBy(item => item.IBS).Select(p =>p).Sum(p =>
-            {
-                if (p.Name == "CLR via C#")
-                {
-                    p.Price = 29.0;
-                }
-                return p.Price;
-            });
+            list.OrderBy(item => item.IBS).Select(p => p).Sum(p =>
+             {
+                 if (p.Name == "CLR via C#")
+                 {
+                     p.Price = 29.0;
+                 }
+                 return p.Price;
+             });
         }
     }
 

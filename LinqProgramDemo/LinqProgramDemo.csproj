@@ -46,7 +46,11 @@
   <ItemGroup>
     <Compile Include="Aggregates\Demo.cs" />
     <Compile Include="ExpressionDemo.cs" />
+    <Compile Include="LinqConcat.cs" />
+    <Compile Include="LinqCount.cs" />
+    <Compile Include="LinqEmpty.cs" />
     <Compile Include="LinqOfAsync.cs" />
+    <Compile Include="LinqSelectMany.cs" />
     <Compile Include="Northwind.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -70,6 +74,7 @@
       <LastGenOutput>Northwind.designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
+    <None Include="ReadMe.md" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />

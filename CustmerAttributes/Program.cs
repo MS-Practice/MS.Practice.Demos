@@ -5,11 +5,9 @@ using System.Text;
 using System.Runtime.InteropServices;
 using System.Reflection;
 using System.Diagnostics;
-
+[assembly: CLSCompliant(true)]
 namespace CustmerAttributes
 {
-    //[StructLayout(LayoutKind.Sequential)]
-    [assembly: CLSCompliant(true)]
     [Serializable]
     [DefaultMemberAttribute("Main")]
     [DebuggerDisplayAttribute("Swift", Name = "Marson", Target = typeof(Program))]
