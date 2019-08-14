@@ -1,5 +1,0 @@
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ExpressionProgram\bin\Debug\ExpressionProgram.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ExpressionProgram\bin\Debug\ExpressionProgram.pdb
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ExpressionProgram\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ExpressionProgram\obj\x86\Debug\ExpressionProgram.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ExpressionProgram\obj\x86\Debug\ExpressionProgram.pdb

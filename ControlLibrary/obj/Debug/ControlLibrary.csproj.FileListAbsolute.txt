@@ -1,5 +1,0 @@
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ControlLibrary\bin\Debug\ControlLibrary.dll
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ControlLibrary\bin\Debug\ControlLibrary.pdb
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ControlLibrary\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ControlLibrary\obj\Debug\ControlLibrary.dll
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ControlLibrary\obj\Debug\ControlLibrary.pdb

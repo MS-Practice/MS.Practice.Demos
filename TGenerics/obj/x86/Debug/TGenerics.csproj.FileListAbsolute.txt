@@ -1,8 +1,0 @@
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TGenerics\bin\Debug\TGenerics.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TGenerics\bin\Debug\TGenerics.pdb
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TGenerics\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TGenerics\obj\x86\Debug\TGenerics.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TGenerics\obj\x86\Debug\TGenerics.pdb
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TGenerics\bin\Debug\TGenerics.exe.config
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TGenerics\bin\Debug\FileLoader.dll
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TGenerics\bin\Debug\FileLoader.pdb

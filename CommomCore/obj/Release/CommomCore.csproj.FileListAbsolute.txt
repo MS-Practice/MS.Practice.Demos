@@ -1,5 +1,0 @@
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\CommomCore\bin\Release\CommomCore.dll
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\CommomCore\bin\Release\CommomCore.pdb
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\CommomCore\obj\Release\ResolveAssemblyReference.cache
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\CommomCore\obj\Release\CommomCore.dll
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\CommomCore\obj\Release\CommomCore.pdb

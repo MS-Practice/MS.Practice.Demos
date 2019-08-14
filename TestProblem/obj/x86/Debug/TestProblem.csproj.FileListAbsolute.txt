@@ -1,5 +1,0 @@
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestProblem\bin\Debug\TestProblem.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestProblem\bin\Debug\TestProblem.pdb
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestProblem\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestProblem\obj\x86\Debug\TestProblem.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\TestProblem\obj\x86\Debug\TestProblem.pdb

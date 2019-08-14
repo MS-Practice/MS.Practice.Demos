@@ -1,5 +1,0 @@
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\RefectionProject\bin\Debug\RefectionProject.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\RefectionProject\bin\Debug\RefectionProject.pdb
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\RefectionProject\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\RefectionProject\obj\x86\Debug\RefectionProject.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\RefectionProject\obj\x86\Debug\RefectionProject.pdb

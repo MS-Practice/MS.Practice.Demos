@@ -1,5 +1,0 @@
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\FileLoader\bin\Release\FileLoader.dll
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\FileLoader\bin\Release\FileLoader.pdb
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\FileLoader\obj\Release\ResolveAssemblyReference.cache
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\FileLoader\obj\Release\FileLoader.dll
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\FileLoader\obj\Release\FileLoader.pdb

@@ -45,6 +45,12 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+[Oo]bj
+[Bb]in
+/[Oo]bj
+/[Bb]in
+.vs/
+.git/
 /.vs/MS.Practice.Demos/v15/Server/sqlite3
 /.vs
 /AuthorizationCodeGrant/bin
@@ -57,3 +63,5 @@ Temporary Items
 /Owin2.ResourceServer/bin
 /MS.Practice.Web/bin
 /MS.Practice.Web/obj
+obj
+/packages

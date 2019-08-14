@@ -1,5 +1,0 @@
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ThreadProgram\bin\Debug\ThreadProgram.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ThreadProgram\bin\Debug\ThreadProgram.pdb
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ThreadProgram\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ThreadProgram\obj\x86\Debug\ThreadProgram.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ThreadProgram\obj\x86\Debug\ThreadProgram.pdb
