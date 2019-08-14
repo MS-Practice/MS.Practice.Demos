@@ -1,5 +1,0 @@
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\UpdatePanel\bin\Debug\UpdatePanel.dll
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\UpdatePanel\bin\Debug\UpdatePanel.pdb
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\UpdatePanel\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\UpdatePanel\obj\Debug\UpdatePanel.dll
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\UpdatePanel\obj\Debug\UpdatePanel.pdb

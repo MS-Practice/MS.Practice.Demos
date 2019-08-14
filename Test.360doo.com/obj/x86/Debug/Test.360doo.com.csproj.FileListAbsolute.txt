@@ -1,6 +1,0 @@
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\Test.360doo.com\bin\Debug\Test.360doo.com.exe.config
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\Test.360doo.com\bin\Debug\Test.360doo.com.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\Test.360doo.com\bin\Debug\Test.360doo.com.pdb
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\Test.360doo.com\obj\x86\Debug\Test.360doo.com.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\Test.360doo.com\obj\x86\Debug\Test.360doo.com.pdb
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\Test.360doo.com\obj\x86\Debug\Test.360doo.com.csprojResolveAssemblyReference.cache

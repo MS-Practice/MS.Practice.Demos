@@ -1,5 +1,0 @@
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\CharStringTextHandler\bin\Debug\CharStringTextHandler.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\CharStringTextHandler\bin\Debug\CharStringTextHandler.pdb
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\CharStringTextHandler\obj\x86\Debug\CharStringTextHandler.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\CharStringTextHandler\obj\x86\Debug\CharStringTextHandler.pdb
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\CharStringTextHandler\obj\x86\Debug\CharStringTextHandler.csprojResolveAssemblyReference.cache

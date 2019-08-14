@@ -1,5 +1,0 @@
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ArraySolution\bin\Debug\ArraySolution.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ArraySolution\bin\Debug\ArraySolution.pdb
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ArraySolution\obj\x86\Debug\ResolveAssemblyReference.cache
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ArraySolution\obj\x86\Debug\ArraySolution.exe
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\ArraySolution\obj\x86\Debug\ArraySolution.pdb

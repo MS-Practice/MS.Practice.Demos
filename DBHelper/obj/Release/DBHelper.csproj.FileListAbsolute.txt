@@ -1,5 +1,0 @@
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\DBHelper\bin\Release\DBHelper.dll
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\DBHelper\bin\Release\DBHelper.pdb
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\DBHelper\obj\Release\ResolveAssemblyReference.cache
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\DBHelper\obj\Release\DBHelper.dll
-C:\Users\MS\Desktop\MS\MS.Practice\MS.Practice.Demos\DBHelper\obj\Release\DBHelper.pdb
