@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+  <CodeSnippet Format="1.0.0">
+    <Header>
+      <Title>Strongly Typed ID</Title>
+      <Description>Create a strongly typed ID struct</Description>
+      <Shortcut>typedid</Shortcut>
+      <HelpUrl>https://andrewlock.net/using-strongly-typed-entity-ids-to-avoid-primitive-obsession-part-2/</HelpUrl>
+    </Header>
+    <Snippet>
+      <Declarations>
+        <Literal>
+          <ID>TypedId</ID>
+          <ToolTip>Replace with the name of your type</ToolTip>
+          <Default>TypedId</Default>
+        </Literal>
+      </Declarations>
+      <Code Language="csharp">
+          <![CDATA[[JsonConverter(typeof($TypedId$JsonConverter))]
+    [TypeConverter(typeof($TypedId$TypeConverter))]
+    public readonly struct $TypedId$ : IComparable<$TypedId$>, IEquatable<$TypedId$>
+    {
+        public Guid Value { get; }
+
+        public $TypedId$(Guid value)
+        {
+            Value = value;
+        }
+
+        public static $TypedId$ New() => new $TypedId$(Guid.NewGuid());
+        public static $TypedId$ Empty { get; } = new $TypedId$(Guid.Empty);
+
+        public bool Equals($TypedId$ other) => this.Value.Equals(other.Value);
+        public int CompareTo($TypedId$ other) => Value.CompareTo(other.Value);
+
+        public override bool Equals(object obj)
+        {
+            if (obj is null) return false;
+            return obj is $TypedId$ other && Equals(other);
+        }
+
+        public override int GetHashCode() => Value.GetHashCode();
+
+        public override string ToString() => Value.ToString();
+        
+        public static bool operator ==($TypedId$ a, $TypedId$ b) => a.CompareTo(b) == 0;
+        public static bool operator !=($TypedId$ a, $TypedId$ b) => !(a == b);
+
+        class $TypedId$JsonConverter : JsonConverter<$TypedId$>
+        {
+            public override $TypedId$ Read(ref Utf8JsonReader reader, Type typeToConvert, JsonSerializerOptions options) => new(Guid.Parse(reader.GetString()!));
+
+            public override void Write(Utf8JsonWriter writer, $TypedId$ value, JsonSerializerOptions options) => writer.WriteStringValue(value.Value);
+
+            public override bool CanConvert(Type objectType)
+            {
+                return objectType == typeof($TypedId$);
+            }
+        }
+        
+        class $TypedId$TypeConverter : TypeConverter
+        {
+            public override bool CanConvertFrom(ITypeDescriptorContext? context, Type sourceType)
+            {
+                return sourceType == typeof(string) || base.CanConvertFrom(context, sourceType);
+            }
+
+            public override object? ConvertFrom(ITypeDescriptorContext? context, CultureInfo? culture, object value)
+            {
+                var stringValue = value as string;
+                if (!string.IsNullOrEmpty(stringValue)
+                    && Guid.TryParse(stringValue, out var guid))
+                {
+                    return new $TypedId$(guid);
+                }
+
+                return base.ConvertFrom(context, culture, value);
+            }
+        }
+    }]]>
+      </Code>
+      <Imports>
+        <Import>
+          <Namespace>System.ComponentModel</Namespace>
+        </Import>
+        <Import>
+          <Namespace>System.Diagnostics.CodeAnalysis</Namespace>
+        </Import>
+        <Import>
+          <Namespace>System.Globalization</Namespace>
+        </Import>
+        <Import>
+          <Namespace>System.Text.Json</Namespace>
+        </Import>
+        <Import>
+          <Namespace>System.Text.Json.Serialization</Namespace>
+        </Import>
+      </Imports>
+    </Snippet>
+  </CodeSnippet>
+</CodeSnippets>
