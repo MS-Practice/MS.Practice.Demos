@@ -65,3 +65,4 @@ Temporary Items
 /MS.Practice.Web/obj
 obj
 /packages
+*.suo
