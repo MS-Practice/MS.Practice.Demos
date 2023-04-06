@@ -66,3 +66,4 @@ Temporary Items
 obj
 /packages
 *.suo
+/MinimalAPIAnalyzer/MinimalAPIAnalyzer/Properties
