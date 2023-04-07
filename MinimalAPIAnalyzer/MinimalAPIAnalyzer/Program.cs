@@ -4,7 +4,7 @@ var builder = WebApplication.CreateBuilder(args);
 var app = builder.Build();
 
 app.MapGet("/", () => "Hello World!");
-app.MapGet("/{id}", (string id, HttpRequest request, ISomeService service) => { });
+app.MapGet("/{id}", (string id, HttpRequest request, ISomeService service) => { }).AddEndpointFilter;
 
 app.Run();
 
