@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Server-Sent Events (SSE) Heartbeat Receiver</title>
+</head>
+<body>
+    <div style="display:flex">
+        <div id="sseOutput" style="display:flex"></div>
+        <div id="sseOutput2" style="display:flex"></div>
+    </div>
+
+    <script>
+        var sseOutput = document.getElementById('sseOutput');
+        var appendToSseOutput = function (data) {
+            sseOutput.appendChild(document.createTextNode(data));
+            sseOutput.appendChild(document.createElement('br'));
+        };
+
+        var source = new EventSource("/see-heartbeat");
+        source.onopen = function () { appendToSseOutput('-- CONNECTION ESTABLISHED --'); };
+        source.onerror = function () { appendToSseOutput('-- CONNECTION FAILED --'); };
+
+        source.onmessage = function (event) {
+            console.log('SSE EVENT: { id: "' + event.lastEventId + '", type: "' + event.type + '", data: "' + event.data + '" }')
+
+            appendToSseOutput(event.data);
+
+            if (event.id == "CLOSE") {
+                source.close();
+            }
+        }
+
+        var sseOutput2 = document.getElementById('sseOutput2');
+        var appendToSseOutput2 = function (data) {
+            sseOutput2.appendChild(document.createTextNode(data));
+            sseOutput2.appendChild(document.createElement('br'));
+        };
+        var source2 = new EventSource("/chat-completion");
+        source2.onopen = function () { appendToSseOutput2('-- CONNECTION ESTABLISHED --'); };
+        source2.onerror = function () { appendToSseOutput2('-- CONNECTION FAILED --'); };
+        source2.addEventListener("chatsession", (event) => {
+            console.log('SSE EVENT: { id: "' + event.lastEventId + '", type: "' + event.type + '", data: "' + event.data + '" }')
+            appendToSseOutput2(event.data);
+            if (event.id == "CLOSE") {
+                source2.close();
+            }
+        })
+        source2.onmessage = function (event) {
+            console.log('SSE EVENT: { id: "' + event.lastEventId + '", type: "' + event.type + '", data: "' + event.data + '" }')
+
+            appendToSseOutput2(event.data);
+
+            if (event.id == "CLOSE") {
+                source2.close();
+            }
+        }
+
+    </script>
+</body>
+</html>
