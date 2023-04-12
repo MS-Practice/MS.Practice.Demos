@@ -8,6 +8,7 @@
     <div style="display:flex">
         <div id="sseOutput" style="display:flex"></div>
         <div id="sseOutput2" style="display:flex"></div>
+        <div id="sseOutput3" style="display:flex"></div>
     </div>
 
     <script>
@@ -53,6 +54,31 @@
 
             if (event.id == "CLOSE") {
                 source2.close();
+            }
+        }
+
+        var sseOutput3 = document.getElementById('sseOutput3');
+        var appendToSseOutput3 = function (data) {
+            sseOutput3.appendChild(document.createTextNode(data));
+            sseOutput3.appendChild(document.createElement('br'));
+        };
+        var source3 = new EventSource("/origin-sse2");
+        source3.onopen = function () { appendToSseOutput3('-- CONNECTION ESTABLISHED --'); };
+        source3.onerror = function () { appendToSseOutput3('-- CONNECTION FAILED --'); };
+        source3.addEventListener("chatsession", (event) => {
+            console.log('SSE EVENT: { id: "' + event.lastEventId + '", type: "' + event.type + '", data: "' + event.data + '" }')
+            appendToSseOutput3(event.data);
+            if (event.id == "CLOSE") {
+                source3.close();
+            }
+        })
+        source3.onmessage = function (event) {
+            console.log('SSE EVENT: { id: "' + event.lastEventId + '", type: "' + event.type + '", data: "' + event.data + '" }')
+
+            appendToSseOutput3(event.data);
+
+            if (event.id == "CLOSE") {
+                source3.close();
             }
         }
 
